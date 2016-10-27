@@ -10,7 +10,9 @@ int main()
 {
   system("clear");
   cout<<"Lab 8 Chapter 15"<< endl;
-
+  //Exercises15_1
+  //Trace tracer("main");
+  // f(tracer);
 
   return 0;
 }
@@ -19,16 +21,17 @@ void Exercises15_1()
   // Predict what the output will be in the following program,
   // then test your prediction. Explain at what point in execution
   // each message is generated.
-  // void f(Trace t)
-  // {
-  //    cout << "Entering f \n";
-  // }
   // int main()
   // {
   //    Trace tracer("main");
   //    f(tracer);
   //  }
 }
+void f (Trace t)
+{
+     cout << "Entering f \n";
+}
+
 void Exercises15_2()
 {
   //  Extend the class Trace with a copy constructor and an assignment

@@ -8,3 +8,8 @@ SOURCES += main.cpp
 include(deployment.pri)
 qtcAddDeployment()
 
+HEADERS += \
+    trace.h \
+    sharedstring.h \
+    set.h
+
